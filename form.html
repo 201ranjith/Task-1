@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action=example-server.com>
+        <fieldset>
+          <legend>Contact me</legend>
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="name" id="name" placeholder="Enter your name" required />
+          </div>
+  
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+  
+          <div class="form-control">
+            <label for="message">Phone Number</label>
+            <input
+            type="phone number"
+              id="Phone Number"
+              placeholder="Enter your Phone Number"
+              required
+            ></input>
+          </div>
+          <input type="submit" value="Send" onclick = "getValue();" />
+        </fieldset>
+  </form>
+  <script>
+    <!--
+     
+        function getValue() {
+               var retVal = prompt("Enter your Email For Confirmation : ", "Your Mail ID");
+               document.write("Your Mail ID Successfully Sended.. " + retVal);
+            }
+    //-->
+ </script>     
+</body>
+</html>
